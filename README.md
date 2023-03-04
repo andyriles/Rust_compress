@@ -25,11 +25,11 @@ $ cargo install --path .
 ```
 
 ## How it works
--The program takes two arguments from the command line - source and target. 
--If the number of arguments is not equal to 2, it will display a usage message and terminate. 
--The input file is read using a BufReader and compressed using the GzEncoder from the flate2 library. 
--The compressed data is then written to the output file using a File writer. 
--Finally, the metadata of the source and target files and the elapsed time are printed to the console.
+- The program takes two arguments from the command line - source and target. 
+- If the number of arguments is not equal to 2, it will display a usage message and terminate. 
+- The input file is read using a BufReader and compressed using the GzEncoder from the flate2 library. 
+- The compressed data is then written to the output file using a File writer. 
+- Finally, the metadata of the source and target files and the elapsed time are printed to the console.
 
 ## License
 This project is licensed under the MIT License.
