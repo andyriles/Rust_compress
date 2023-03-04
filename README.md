@@ -3,14 +3,13 @@ This is a simple Rust command-line tool that compresses a file using gzip compre
 
 ## Usage
 ```shell
-Copy code
 $ cargo run source_file target_file
-The source_file is the file that needs to be compressed and target_file is the name of the compressed file that will be created.
 ```
+The source_file is the file that needs to be compressed and target_file is the name of the compressed file that will be created.
+
 
 ### Example
 ```shell
-Copy code
 $ cargo run example.txt example.txt.gz
 ```
 This will compress the example.txt file and create a compressed file named example.txt.gz.
@@ -19,7 +18,6 @@ This will compress the example.txt file and create a compressed file named examp
 You can compile and install this tool using Rust's Cargo package manager:
 
 ```shell
-Copy code
 $ git clone https://github.com/your_username/file-compressor.git
 $ cd file-compressor
 $ cargo build --release
